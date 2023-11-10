@@ -283,7 +283,7 @@ void saque()
     } else
     {
           balance -= quantia;
-          imprimir_recibo_saque(0, quantia, balance, gerar_codigo_verificacao());
+          imprimir_recibo_saque(accountNumber, quantia, balance, gerar_codigo_verificacao());
     }
 
     banco();   
